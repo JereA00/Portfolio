@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #caja1{
+            position: relative;
+            left: 30px;
+            top: 100px; 
+            width: 200px;
+            height: 100px;
+            background: rebeccapurple;
+            padding: 6px;
+            border-radius: 6px;
+            animation-name: animacion1;
+            -moz-animation-name: animacion1;
+            -o-animation-name: animacion1;
+            -webkit-animation-name: animacion1;
+            -ms-animation-name: animacion1;
+            animation-duration: 3s;
+            -moz-animation-duration: 3s;
+            -o-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            animation-iteration-count: 10;
+        }
+        @keyframes animacion1{
+            0%{
+                left:30px;
+                background: rebeccapurple;
+            }
+            50%{
+                left: 500px;
+                background: mediumaquamarine;
+            }
+            100%{
+                left:30px;
+                background: rebeccapurple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="caja1">
+        <span>&#128233</span>
+    </div>
+</body>
+</html>

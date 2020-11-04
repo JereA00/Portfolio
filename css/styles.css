@@ -1,0 +1,66 @@
+.icono {
+  font-size: 90px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.icono:hover {
+  transform: scale(1.5) rotate(10deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.footer {
+  background: darkslategray;
+}
+.header {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  height: 45vh;
+  background-position: center -5vh;
+}
+textarea {
+  resize: none;
+}
+.fondo {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+}
+
+.imagen {
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.imagen:hover {
+  transform: scale(1.3) rotate(15deg);
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.shadow {
+  /*box-shadow: somb_X somb_Y profundidad color*/
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -o-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -ms-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+}
+
+.caja {
+  position: relative;
+  left: 0px;
+  animation-name: caja;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes caja {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 0px;
+  }
+}
